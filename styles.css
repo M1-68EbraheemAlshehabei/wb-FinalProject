@@ -24,7 +24,6 @@ body.contact{
 }
 .bg-img{
 	background-image: url(./images/imgHome1.jpeg);
-
 }
 .top-home{
 
@@ -175,16 +174,49 @@ html {
 	  height: 500px;
   }
   .footer {
+	  position: relative;
+	  clear:both;
+	margin-top: -100px;
 	width: 100%;
 	bottom: 0;
+	font-size: 17px;
+	font-weight: bold;
 	background-color: rgb(54, 53, 53);
 	color: white;
 	text-align: center;
-	height: 80px;
+	height: 100px;
 
  }
- /* contact page for css styles */
+ /* start the social media icon modifcation */
+ .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
 
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+ /* END the social media icon modifcation */
+
+ /* contact page for css styles */
 .wrapper{
 	position: absolute;
 	top:50%;
@@ -235,7 +267,7 @@ html {
 	left:0;
 
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	background-color: rgb(233, 238, 231);
 
  }
@@ -286,4 +318,37 @@ html {
 	display: flex;
 	font-size: 30px;
 	text-align: center;
+}
+.img-animal-container{
+	max-width: 1200px;
+	margin: auto;
+	background:#f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border: 1px soild #ccc;
+	float:left;
+	width: 390px;
+}
+.gallery img{
+	width: 100%;
+	height: 300px;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
+#more {
+	display: none;
+}
+
+.map-text{
+	text-align: center;
+}
+
+/* button icon for loading the page  */
+.buttonload{
+	display:block;
+	margin: 20% auto;
 }

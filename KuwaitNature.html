@@ -13,9 +13,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     
+
+    <!-- Soical media button icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="styles.css"> 
+
 </head>
-<body>
+
+<body onload="myFunction()"> 
+<div id="page" style="display:none;" class="animate-bottom">
+
     <div class="page-container">
 <section id="kuwait-container">
     <div class="navbar">
@@ -52,14 +60,83 @@
             The Environment Public Authority has established according to decision 
             no. 21 <br>for the year 1995 and modified under no.16 for the year 1996 and in 2014,
             the new <br>protection law of the environment has issuedand hold a number 42 for the year 2014 
-        <br> and modified with some of provisions in the law no.99 for the year 2015 </p>
+        <br> and modified with some of provisions in the law no.99 for the year 2015</p>
+      
     </div>
 
-    <div class="footer">
-        <p> <footer>&copy; Copyright 2021  Protect Us</footer> </p>
+
+    <div class="img-animal-container">
+
+        <div class="gallery">
+            <img src="./images/Argaj.webp">
+                <div class="desc"> <h4>Arfaj:</h4> A bushy perennial shrub approximately 80 cm high. The leaves are samll and narrow.
+                     It is the national flower of Kuwait. It is considered one of the main desert forage plants for camels and
+                      sheep. Its flowers and fruits appear from January to May.</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./images/Thandah1.jpg_large">
+                <div class="desc"> <h4>Thandah:</h4> A perennial, tufted plant grows up to 60 cm tall with woolly root fibers. 
+                    Flowers and fruits appear in May to June. Brown or green flower spikes. Leaves are stiff, bright
+                    green, grooved and curvy</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./images/rimth.jpg">
+                <div class="desc"> <h4>Rimth:</h4> A diffuse, perennial, low woody shrub that grows up to 60 cm high. 
+                    Flowers with protruding yellow stamens appear on stems with jointed segments. Leaves are scale 
+                    like with pink or fawn coloured papery fruits. Flowers appear in September to October.</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./images/fox.jpg">
+            <div class="desc"><h4>Red Fox:</h4> is similar in color to the common red fox. However, this fox is more
+                adapted to desert life than its parent species, with its ears being much larger, and its body 
+                being much smaller than that of the red fox.</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./images/الحباري.jpg">
+                <div class="desc"> <h4>Macqueen's Bustard:</h4> Irregular winter visitor in very samll numbers. Formerly
+                     a resident breeder that was fairly common up until the 1950's. It has seen a dramatic population
+                     decline primarily due to overhunting across the region.</div>
+        </div>
+
+        <div class="gallery">
+            <img src="./images/common kestrel.jpg">
+                <div class="desc"> <h4>Common Kestrel:</h4> Unccommon passage migrant and winter visitor; also a scarce 
+                    resident and local breeder. One of the most widespread small falcons; feeds on a variety of
+                prey including rodents, reptiles, birds and large insects.</div>
+         </div>
+
+    <div class="map-text">
+        <h2> Protected Areas of Kuwait</h2>
+        <p>You can find your destination by using this active map</p>
+        <!-- map of the kuwait that help the user interact with it -->
+        <iframe src="https://www.google.com/maps/d/embed?mid=1DKj_z4faf2XF-JC6jycjWvkcOnQ&hl=en_US" width="1200" height="800"></iframe>
     </div>
+</div>
+
+<div class="footer">
+    <p> <footer>&copy; Copyright 2021  Protect Us
+            <!-- Add font awesome icons -->
+    <a href="https://twitter.com/epa_kw?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/kalghanembirds/?hl=en" class="fa fa-instagram"></a>
+    </footer> </p>
+</div>
+
+    
+</div>
+</div>
+<div id="loader">
+  <button class="buttonload" >
+        <!-- The icon loading  -->
+    <i class="fa fa-refresh fa-spin"></i>Loading
+  </button>
 
 </div>
+
+<script src = "scripts.js" ></script>
 
 </body>
 </html>

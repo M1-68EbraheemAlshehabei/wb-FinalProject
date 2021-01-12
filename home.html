@@ -13,12 +13,15 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
             <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            <!-- To link the HTML to CSS -->
+            <!-- Soical media button icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+            <!-- To link the HTML to CSS -->
             <link rel="stylesheet" href="styles.css"> 
         </head>
 
-<body>
+<body onload="myFunction()"> 
+<div id="page" style="display:none;" class="animate-bottom">
 
 <!-- START PAGE SOURCE -->
 <div class="bg-img">
@@ -94,10 +97,23 @@
             <h2>About Us</h2>
         </div>
     
-    <div class="footer">
-       <p> <footer>&copy; Copyright 2021  Protect Us</footer>
-       </p>
+        <div class="footer">
+          <p> <footer>&copy; Copyright 2021  Protect Us
+                  <!-- Add font awesome icons -->
+          <a href="https://twitter.com/epa_kw?lang=en" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/kalghanembirds/?hl=en" class="fa fa-instagram"></a>
+          </footer> </p>
+          
+        </div>
+
     </div>
+  <div id="loader">
+    <button class="buttonload" >
+          <!-- The icon loading  -->
+      <i class="fa fa-refresh fa-spin"></i>Loading
+    </button>
+
+  </div>
 
 <script src = "scripts.js" ></script>
 
