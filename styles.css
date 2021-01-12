@@ -1,0 +1,289 @@
+body{
+	background-color: rgb(233, 238, 231);
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#212713;
+	height: 100vh;
+	margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+	
+  /* For mobile phones: */
+ .navbar, .input_field, .wrapper{
+	width: 100%;
+  }
+}
+
+body.contact{
+	background-color: rgba rgb(36, 211, 132);
+	height: 100vh;
+	/* -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.bg-img{
+	background-image: url(./images/imgHome1.jpeg);
+
+}
+.top-home{
+
+	/* margin-top: 40px;  */
+	display: flex;
+	height: 735px;
+	justify-content: center;
+
+}
+.navbar{
+
+	margin-bottom: 200px;
+	width: 100%;
+	/* overflow: auto;	 */
+
+}
+
+.navbar ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navbar li {
+
+	/* display:inline;  */
+	float: left;
+	font:bold 22px Comfortaa;
+}
+.navbar li a {
+
+	display:block;
+	height:44px;
+	text-align: center;
+	margin-right:3px;
+	padding-right:10px;
+	color:#161515;
+	text-decoration:none;
+}
+.navbar li a span {
+	display:block;
+	padding:7px 20px 0 30px;
+	height:37px;
+}
+.navbar li a:hover {
+	color:#668a0d;
+	background-color: rgba(17, 17, 17, 0.5);
+	text-shadow:#fff 1px 1px 1px;
+}
+.navbar li.active a {
+	color:#668a0d;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+/* .logo {
+	display: flex;
+	font: normal 46px chunk;
+	color:#1b2502;
+	text-shadow:#5d7a17 1px 1px 1px;
+	display:block;
+	padding:10px 0 0 0;
+	width:100px;
+	float:left;
+} */
+.word{
+	display: flex;
+	justify-content: center;
+	padding-top: 380px;
+	font-size: 100px;
+	width: 100%;
+}
+html {
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  .column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  
+  }
+  
+  /* @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	}
+  } */
+
+  
+  .card {
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card div{
+	overflow: hidden;
+  }
+  .img1{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+  }
+  .img2{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+  }
+  .img3{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+  }
+
+  .container {
+	padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  .button:hover {
+	background-color: #555;
+  }
+  .about-us{
+	  display: flex;
+	  justify-content: center;
+	  background-color: rgb(240, 240, 240);
+	  padding-top: 50px;
+	  height: 500px;
+  }
+  .footer {
+	width: 100%;
+	bottom: 0;
+	background-color: rgb(54, 53, 53);
+	color: white;
+	text-align: center;
+	height: 80px;
+
+ }
+ /* contact page for css styles */
+
+.wrapper{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	min-width: 50%;
+	background: rgb(206, 218, 211);
+	padding: 25px;
+	border-radius:5px;
+}
+.wrapper h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #332902 ;
+}
+.wrapper .input_field{
+	margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	padding:10px;
+}
+.wrapper textarea{
+	height: 80px;
+	resize: none;
+}
+ .wrapper #error_message{
+	 margin-bottom:20px;
+	 padding:0px;
+	 background: #fe8b8e;
+	 text-align: center;
+	 font-size: 14px;
+	 transition: all 0.5s ease;
+ }
+
+
+ /* kuwait nature page for css styles */
+
+ .page-container{
+	padding:0;
+	margin:0;
+
+	top:0;
+	left:0;
+
+	width: 100%;
+	height: 100%;
+	background-color: rgb(233, 238, 231);
+
+ }
+ #kuwait-container{
+	/* position: sticky; */
+	top:0;
+	z-index: 10;
+
+ }
+ .frame-img h1,p {
+	display: flex;
+	 justify-content: center;
+	 margin-top: 20px;
+ }
+ .frame-img h1 {
+	font-size: 70px;
+ }
+ .frame-img p {
+	font-size: 26px;
+ }
+ .frame-img img{
+	 display: flex;
+	 margin-top:-200px ;
+	 width: 100%;
+	/* Full height */
+	height: 100%; 
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+.video-kuwait{
+	display: flex;
+	margin: 0 auto; width: 800px;
+}
+
+.brief-authority h1,p{
+	margin-top: 20px;
+
+}
+.brief-authority h1{
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+
+.brief-authority p{
+	display: flex;
+	font-size: 30px;
+	text-align: center;
+}
