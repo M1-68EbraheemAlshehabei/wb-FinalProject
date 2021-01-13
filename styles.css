@@ -13,15 +13,18 @@ body{
 	width: 100%;
   }
 }
+.page-container1{
+	padding:0;
+	margin:0;
 
-body.contact{
-	background-color: rgba rgb(36, 211, 132);
-	height: 100vh;
-	/* -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-}
+	top:0;
+	left:0;
+
+	width: 100%;
+	height:1900px;
+	background-color: rgb(233, 238, 231);
+ }
+
 .bg-img{
 	background-image: url(./images/imgHome1.jpeg);
 }
@@ -112,14 +115,6 @@ html {
   
   }
   
-  /* @media screen and (max-width: 650px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	}
-  } */
-
-  
   .card {
 	margin-top: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -166,16 +161,26 @@ html {
   .button:hover {
 	background-color: #555;
   }
-  .about-us{
+  .about-us h2{
 	  display: flex;
 	  justify-content: center;
 	  background-color: rgb(240, 240, 240);
 	  padding-top: 50px;
-	  height: 500px;
+	  height: 400px;
   }
+  .about-us h5{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	margin-top: -300px;
+  }
+  .about-us h2{
+	font-weight: bold;
+  }
+
   .footer {
-	  position: relative;
-	  clear:both;
+	position: relative;
+	clear:both;
 	margin-top: -100px;
 	width: 100%;
 	bottom: 0;
@@ -201,22 +206,36 @@ html {
 	  opacity: 0.7;
   }
 
-.fa-youtube {
-	background: #bb0000;
-	color: white;
-  }
-  
   .fa-instagram {
-	background: #125688;
+	/* background: #125688; */
 	color: white;
   }
   .fa-twitter {
-	background: #55ACEE;
+	/* background: #55ACEE; */
 	color: white;
   }
  /* END the social media icon modifcation */
 
  /* contact page for css styles */
+ body.contact{
+	background-color: rgba rgb(36, 211, 132);
+
+	/* -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.page-container5{
+	padding:0;
+	margin:0;
+
+	top:0;
+	left:0;
+	
+	width: 100%;
+	height:1000px;
+	background-color: rgb(233, 238, 231);
+ }
 .wrapper{
 	position: absolute;
 	top:50%;
@@ -267,7 +286,7 @@ html {
 	left:0;
 
 	width: 100%;
-	height: 1000px;
+	height:100%;
 	background-color: rgb(233, 238, 231);
 
  }
@@ -277,11 +296,12 @@ html {
 	z-index: 10;
 
  }
- .frame-img h1,p {
+ .frame-img h1,p,h2 {
 	display: flex;
 	 justify-content: center;
 	 margin-top: 20px;
  }
+
  .frame-img h1 {
 	font-size: 70px;
  }
@@ -305,7 +325,7 @@ html {
 }
 
 .brief-authority h1,p{
-	margin-top: 20px;
+	margin-top: 30px;
 
 }
 .brief-authority h1{
@@ -313,12 +333,19 @@ html {
 	justify-content: center;
 	font-size: 50px;
 }
+.brief-authority{
+	align-items: center;
+	justify-content: center;
+}
 
 .brief-authority p{
 	display: flex;
 	font-size: 30px;
 	text-align: center;
+	margin-bottom: 40px;
+
 }
+
 .img-animal-container{
 	max-width: 1200px;
 	margin: auto;
@@ -339,11 +366,10 @@ html {
 	padding: 15px;
 	text-align: center;
 }
-#more {
-	display: none;
-}
 
 .map-text{
+	margin-top: 20px;
+	margin-bottom: 140px;
 	text-align: center;
 }
 
@@ -351,4 +377,207 @@ html {
 .buttonload{
 	display:block;
 	margin: 20% auto;
+}
+
+ /* pollution page for css styles */
+
+ .frame2-img h1,p,h2 {
+	display: flex;
+	 justify-content: center;
+	 margin-top: 20px;
+ }
+
+ .frame2-img h1 {
+	font-size: 50px;
+ }
+ .frame2-img p {
+	font-size: 26px;
+ }
+
+.frame2-img h2{
+	font-size: 40px;
+}
+.frame2-img img{
+	display: flex;
+	margin-top:-200px ;
+	width: 100%;
+   /* Full height */
+   height: 500px; 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.plastic-pollution{
+	display: flex;
+	margin: 0 auto; 
+	justify-content: center;
+
+}
+.plastics-img{
+	max-width: 1800px;
+	margin: auto;
+	background:#f2f2f2;
+	overflow: auto;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+.gallery-pollution {
+	margin: 5px;
+	border: 1px soild #ccc;
+	float:left;
+	width: 590px;
+}
+.gallery-pollution img{
+	width: 100%;
+	height: 700px;
+}
+.recycled-text h1{
+	display: flex;
+	margin-top: 740px;
+	justify-content: center;
+}
+.vid-rec {
+	display: flex;
+	margin-top: -150px;
+	margin-bottom: 200px;
+	justify-content: center;
+}
+
+/* eco life styles */
+.footer4 {
+	position: relative;
+	clear:both;
+  margin-top: 1000px;
+  width: 100%;
+  bottom: 0;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(54, 53, 53);
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.Web-links {
+	display: flex;
+	justify-content: center;
+}
+#button-links{
+	background-color: rgb(168, 197, 168);
+	width: 330px;
+	height: 110px;
+	font-size: 20px;
+}
+.frame4-img img{
+	display: flex;
+	margin-top:-200px ;
+	width: 100%;
+   /* Full height */
+   height: 400px; 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.frame4-img h1 {
+	display: flex;
+    justify-content: center;
+	margin-top: 20px;
+ }
+ .eco-video{
+	display: flex;
+    justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+ }
+
+ /* Survey form styles */
+ .Environmental-Survey{
+	margin-top: 100px;
+	text-align: center;
+ }
+ .Environmental-Survey p{
+	font-size: 20px;
+ }
+ /* a{
+	 text-decoration: none;
+	 color: white;
+ } */
+
+.survey{
+	width: 80%;
+	margin: 20px auto;
+	background: rgb(168, 197, 168);
+	height: 300px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+.survey h2{
+	margin: 8px;
+	padding-top: 10px;
+}
+.survey li{
+	font-size: 20px;
+	text-decoration: none;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;
+}
+.survey li:hover{
+	background: cornflowerblue;
+	width: 200px;
+	margin: 0 auto;
+	padding: 4px;
+	border-radius: 3px;
+	transition: 0.3s ease;
+}
+.end{
+	background: rgb(168, 197, 168);
+	width:80%;
+	margin: 20% auto;
+	padding: 15px 0;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4)
+}
+.end h1{
+	text-align: center;
+	margin: 5px;
+}
+.end p{
+	padding: 10px;
+	font-size: 20px;
+}
+.end a{
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 4px;
+	background: rgb(168, 197, 168);
+
+	outline: none;
+}
+.end a:hover{
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+	transition: 0.3s;
+}
+
+/* Display change properties */
+.q1{
+	display: block;
+}
+.q2{
+	display: none;
+}
+.q3{
+	display: none;
+}
+.q4{
+	display: none;
+}
+.q5{
+	display: none;
+}
+.end{
+	display: none;
 }
