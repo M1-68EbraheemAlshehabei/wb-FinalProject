@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Protect Us 
 <div> <img src="./images/logo-tilte.ico" width="100" > </div>
 
@@ -30,6 +29,7 @@
 
 
 ## الموقع سهل وبسيط الاستخدام
+تم استخدام خاصية Loading Page.  
 اذهب الى الموقع للتعرف على المحتويات اكثر
 
 
@@ -39,12 +39,37 @@
 
 <div align="center">
 <div><strong>Website screenshots</strong></div></br>
-<img src = "./images/home-page (1).png" width ="400" /> <img src = "./images/home-page (2).png" width ="400" /> <img src = "./images/kuwait nature-page.png" width ="400" /> <img src = "./images/kuwait nature -page2.png" width ="400" /> <img src=".images/kuwait nature -page 3.png" width="250"> <img src = "./images/pollution -page1.png" width ="400" /> <img src = "./images/plastic-solution2.jpg" width ="400" /> <img src = "./images/eco-life -page1.png" width ="400" /> <img src = "./images/eco-life page2.png" width ="400" /> <img src=".images/contactus page.png" width="250">
-</div>
 
-
-
+### الصفحة الرئيسية 
+تشمل هذي الصفحة على بعض المعلومات عن الهيئة العامة للبيئة. أيضا هناك ثلاث صور تحتوي على كلام
+حول طبيعة الكويت، مسببات التلوث، حياةأقتصادية، ولكل مها رابط ينقلك للصفعة للتعرف أكثر حول الموضوع.
+<img src = "./images/home-page (1).png" width ="400" /> 
+<img src = "./images/home-page (2).png" width ="400" /> 
 </br>
 
+### صفحة طبيعة الكويت البيئية
+تثمل هذي الصفحة على فيديو تعريفي عن الكويت وبعض المعلومات عن الهيئة العامة للبيئة. أيضا هناك صور بعض من أشهر النباتات والحيوانات في الكويت. أخيرا تحتوي على خريطة الكويت التفاعلية للتعرف على الاماكن المراد الذهاب إليها.
+<img src = "./images/kuwait nature-page.png" width ="400" /> 
+<img src = "./images/kuwait nature -page2.png" width ="400" /> 
+<img src=".images/kuwait nature -page 3.png" width="250"/>
+
+### صفحة مسببات التلوث
+هذي الصفحة تعرف تشرح مشكلة البلاستك وفيديو توضيحي لها. هناك بعض من الصور. وفي الختام يوجد فيديو لبعض الحلول إعادة تدور البلاستك. 
+<img src = "./images/pollution -page1.png" width ="400" />
+<img src = "./images/plastic-solution2.jpg" width ="400" /> 
+
+### صفحة الحياة الاقتصادية  
+ هذي الصفحة تحتوي على فيديو عن اهمية العيش في بيئة صحية أقتصادية وصديقة للبيئة. أيضا هناك العديد من الروابط للتشجيع على أتخاذ هذه الحياة كنمط معيشة.و أخيرا يوجد أستبيان قصير يحتوي على 5 أسئلة يجيب عنها المستخدم. 
+<img src = "./images/eco-life -page1.png" width ="400" /> 
+<img src = "./images/eco-life page2.png" width ="400" /> 
+
+### صفحة التواصل معنا
+هذي صفحة لتمكين المستخدم من التواصل معنا وطرح بعض الاقتراحات والاسئلة 
+<img src=".images/contactus page.png" width="250" />
+
+</div>
+
+## نشكركم على وقكتم في القراءة والتعرف على مشروعي
+</br>
 
 </div>
